@@ -1,0 +1,12 @@
+[submodule "thirdparty/SEAL"]
+	path = thirdparty/SEAL
+	url = https://github.com/microsoft/SEAL
+[submodule "thirdparty/HElib"]
+	path = thirdparty/HElib
+	url = https://github.com/homenc/HElib
+[submodule "thirdparty/tfhe"]
+	path = thirdparty/tfhe
+	url = https://github.com/tfhe/tfhe
+[submodule "thirdparty/m4ri"]
+	path = thirdparty/m4ri
+	url = https://github.com/malb/m4ri

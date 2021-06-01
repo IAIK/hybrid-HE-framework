@@ -1,0 +1,58 @@
+#pragma once
+
+#include "../../common_Zp/helib_kats.h"
+#include "he_only_helib.h"
+
+using namespace HE_ONLY;
+
+// build an array of KnownAnswerTests for MASTA_128
+HElibKnownAnswerTestZp<HeOnlyHElib> KNOWN_ANSWER_TESTS[] = {
+    {{0x00},
+     {0x00},
+     {0x00},
+     32768,
+     65537,
+     1,
+     220,
+     2,
+     1,
+     128,
+     128,
+     HElibKnownAnswerTestZp<HeOnlyHElib>::Testcase::PACKED_MAT,
+     200,
+     true,
+     20,
+     10},
+    {{0x00},
+     {0x00},
+     {0x00},
+     65536,
+     8088322049ULL,
+     1,
+     370,
+     2,
+     1,
+     128,
+     128,
+     HElibKnownAnswerTestZp<HeOnlyHElib>::Testcase::PACKED_MAT,
+     200,
+     true,
+     20,
+     10},
+    {{0x00},
+     {0x00},
+     {0x00},
+     65536,
+     1096486890805657601ULL,
+     1,
+     560,
+     2,
+     1,
+     128,
+     128,
+     HElibKnownAnswerTestZp<HeOnlyHElib>::Testcase::PACKED_MAT,
+     200,
+     true,
+     20,
+     10},
+};
