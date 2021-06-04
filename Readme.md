@@ -23,7 +23,7 @@ The following ciphers are already implemented in the framework:
 - [Kreyvium](https://eprint.iacr.org/2015/113.pdf)
 - [FiLIP](https://eprint.iacr.org/2019/483.pdf)
 - [Masta](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9240936)
-- [Pasta](https://eprint.iacr.org/2021/???.pdf)
+- [Pasta](https://eprint.iacr.org/2021/731.pdf)
 
 ## Compilation
 
@@ -61,9 +61,9 @@ Please use the following BibTeX entry to cite our work in academic papers.
   title     = {Pasta: A Case for Hybrid Homomorphic Encryption},
   journal   = {{IACR} Cryptol. ePrint Arch.},
   volume    = {2021},
-  pages     = {???},
+  pages     = {731},
   year      = {2021}
 }
 ```
 
-[1] [https://eprint.iacr.org/2021/???.pdf](https://eprint.iacr.org/2021/???.pdf)
+[1] [https://eprint.iacr.org/2021/731.pdf](https://eprint.iacr.org/2021/731.pdf)
