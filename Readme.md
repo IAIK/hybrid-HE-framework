@@ -23,6 +23,7 @@ The following ciphers are already implemented in the framework:
 - [Kreyvium](https://eprint.iacr.org/2015/113.pdf)
 - [FiLIP](https://eprint.iacr.org/2019/483.pdf)
 - [Masta](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9240936)
+- [Hera](https://eprint.iacr.org/2020/1335.pdf)
 - [Pasta](https://eprint.iacr.org/2021/731.pdf)
 
 ## Compilation

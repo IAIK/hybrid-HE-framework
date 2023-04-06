@@ -30,6 +30,7 @@ set(PLAIN_CIPHS
   pasta_4
   masta_4
   masta_5
+  hera_5
 )
 
 set(SEAL_CIPHS
@@ -49,6 +50,7 @@ set(SEAL_CIPHS
   pasta_4
   masta_4
   masta_5
+  hera_5
 )
 
 set(HELIB_CIPHS
@@ -73,6 +75,7 @@ set(HELIB_CIPHS
   pasta_4
   masta_4
   masta_5
+  hera_5
 )
 
 set(TFHE_CIPHS
