@@ -6,8 +6,8 @@ This repository contains code to test and benchmark symmetric ciphers in hybrid 
 
 The following Homomorphic Encryption Libraries are part of the framework:
 
-- [HElib](https://github.com/homenc/HElib/) (version 2.1.0)
-- [SEAL](https://github.com/Microsoft/SEAL/) (version 3.6.2)
+- [HElib](https://github.com/homenc/HElib/) (version 2.2.2)
+- [SEAL](https://github.com/Microsoft/SEAL/) (version 3.7.3)
 - [TFHE](https://github.com/tfhe/tfhe) (version 1.1)
 
 The libraries are included as submodules in this repository and will be downloaded to the `thirdparty` directory.
@@ -27,6 +27,12 @@ The following ciphers are already implemented in the framework:
 - [Pasta](https://eprint.iacr.org/2021/731.pdf)
 
 ## Compilation
+
+The framework is developed and tested on Linux (and WSL2). The dependencies of the framework are `git`, `gcc/g++` (or `clang/clang++`), `cmake`, `autoconf`, and `libtool`. Install these dependencies with
+
+```bash
+sudo apt install build-essential cmake autoconf libtool
+```
 
 To compile the framework, execute the following commands from the root directory:
 

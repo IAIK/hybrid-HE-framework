@@ -135,8 +135,8 @@ endif()
 
 add_subdirectory(util)
 
-find_package(helib 2.1.0 QUIET)
-find_package(SEAL 3.6.2 QUIET)
+find_package(helib 2.2.0 QUIET)
+find_package(SEAL 3.7.3 QUIET)
 
 if (NOT helib_FOUND OR NOT SEAL_FOUND)
     # prep external libraries
@@ -144,13 +144,13 @@ if (NOT helib_FOUND OR NOT SEAL_FOUND)
 endif()
 
 # Import HElib
-find_package(helib 2.1.0 REQUIRED
+find_package(helib 2.2.0 REQUIRED
     # Optionaly providing a path so this can be built without installing HElib
     PATHS ${symhe_SOURCE_DIR}/thirdparty/HElib/install/share/cmake/helib
 )
 
 # Import Microsoft SEAL
-find_package(SEAL 3.6.2 REQUIRED
+find_package(SEAL 3.7.3 REQUIRED
     # Optionaly providing a path so this can be built without installing SEAL
     PATHS ${symhe_SOURCE_DIR}/thirdparty/SEAL/build/cmake
 )

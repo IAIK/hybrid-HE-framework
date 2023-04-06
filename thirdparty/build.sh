@@ -2,7 +2,7 @@
 
 git submodule update --init --recursive
 
-NTL_VERSION="ntl-11.4.3"
+NTL_VERSION="ntl-11.5.1"
 
 wget https://www.shoup.net/ntl/$NTL_VERSION.tar.gz  \
  && tar xf $NTL_VERSION.tar.gz  \
