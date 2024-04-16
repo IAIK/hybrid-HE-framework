@@ -28,6 +28,8 @@ set(PLAIN_CIPHS
   kreyvium_13
   pasta_3
   pasta_4
+  pasta2_3
+  pasta2_4
   masta_4
   masta_5
   hera_5
@@ -48,6 +50,8 @@ set(SEAL_CIPHS
   kreyvium_13
   pasta_3
   pasta_4
+  pasta2_3
+  pasta2_4
   masta_4
   masta_5
   hera_5
@@ -73,6 +77,8 @@ set(HELIB_CIPHS
   kreyvium_13
   pasta_3
   pasta_4
+  pasta2_3
+  pasta2_4
   masta_4
   masta_5
   hera_5
