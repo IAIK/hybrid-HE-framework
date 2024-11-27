@@ -73,4 +73,8 @@ Please use the following BibTeX entry to cite our work in academic papers.
 }
 ```
 
+# Acknowledgement
+
+This work is partly supported by the European Union under the project Confidential6G with Grant agreement ID: 101096435.
+
 [1] [https://eprint.iacr.org/2021/731.pdf](https://eprint.iacr.org/2021/731.pdf)
